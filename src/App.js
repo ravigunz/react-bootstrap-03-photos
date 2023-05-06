@@ -1,10 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import PhotoLayout from './layouts/PhotoLayout';
 
 function App() {
   return (
     <div className="App">
-      <h1>Photos</h1>
+      <PhotoLayout />
     </div>
   );
 }
